@@ -1,1103 +1,1037 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
-
+<html dir="ltr" lang="en">
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- ==== Document Title ==== -->
+    <title>Ruslan Havrylov</title>
+    
+    <!-- ==== Document Meta ==== -->
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
 
-<meta name="description" content="Name of your web site">
-<meta name="author" content="Marketify">
+    <!-- ==== Favicon ==== -->
+    <link rel="icon" href="favicon.png" type="image/png">
 
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- ==== Google Font ==== -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700%7CRoboto+Condensed:300,400,700">
+    
+    <!-- ==== Plugins Bundle ==== -->
+    <link rel="stylesheet" href="css/plugins.min.css">
+    
+    <!-- ==== Main Stylesheet ==== -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- ==== Responsive Stylesheet ==== -->
+    <link rel="stylesheet" href="css/responsive-style.css">
+    
+    <!-- ==== Color Scheme Stylesheet ==== -->
+    <link rel="stylesheet" href="css/colors/color-1.css" id="changeColorScheme">
+    
+    <!-- ==== Custom Stylesheet ==== -->
+    <link rel="stylesheet" href="css/custom.css">
 
-<title>Ruslan | Home</title>
-
-<!-- STYLES -->
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-
-<link rel="stylesheet" type="text/css" href="css/plugins.css" />
-<link rel="stylesheet" type="text/css" href="css/dark.css" />
-<link rel="stylesheet" type="text/css" href="css/colors.css" />
-<link rel="stylesheet" type="text/css" href="css/style.css" />
-<!--[if lt IE 9]> <script type="text/javascript" src="js/modernizr.custom.js"></script> <![endif]-->
-<!-- /STYLES -->
-
+    <!-- ==== HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries ==== -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
+<body data-spy="scroll" data-target="#headerNav" data-offset="100">
 
-<body class="dark"> 
-	
-	<!-- PRELOADER -->
-	<div id="preloader">
-		<div class="loader_line"></div>
-	</div>
-	<!-- /PRELOADER -->
-	
-<!-- WRAPPER ALL -->
-<div class="aali_tm_all_wrap" data-magic-cursor="show"> 
-	
-	<!-- MODALBOX -->
-	<div class="aali_tm_modalbox">
-		<div class="box_inner">
-			<div class="close">
-				<a href="#"><img class="svg" src="img/svg/cancel.svg" alt="" /></a>
-			</div>
-			<div class="description_wrap"></div>
-		</div>
-	</div>
-	<!-- /MODALBOX -->
-	
-	<!-- MOBILE MENU -->
-	<div class="aali_tm_mobile_menu">
-		<div class="mobile_menu_inner">
-			<div class="mobile_in">
-				<div class="logo">
-					<a href="#"><img src="img/logo/dark.png" alt="" /></a>
-				</div>
-				<div class="trigger">
-					<div class="hamburger hamburger--slider">
-						<div class="hamburger-box">
-							<div class="hamburger-inner"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="dropdown">
-			<div class="dropdown_inner">
-				<ul class="anchor_nav">
-					<li class="current"><a href="#home">Home</a></li>
-					<li><a href="#about">About</a></li>
-					<li><a href="#portfolio">Portfolio</a></li>
-					<li><a href="#service">Service</a></li>
-					<li><a href="#testimonial">Testimonial</a></li>
-					<li><a href="#blog">Blog</a></li>
-					<li><a href="#contact">Contact</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-	<!-- /MOBILE MENU -->
+    <!-- Preloader Start -->
+    <div id="preloader" class="bg-primary">
+        <div class="preloader--spinner"></div>
+    </div>
+    <!-- Preloader End -->
 
-	<!-- HEADER -->
-	<div class="aali_tm_header">
-		<div class="container">
-			<div class="inner">
-				<div class="logo">
-					<a href="#"><img src="img/logo/logo.png" alt="" /></a>
-				</div>
-				<div class="menu">
-					<ul class="anchor_nav">
-						<li class="current"><a href="#home">Home</a></li>
-						<li><a href="#about">About</a></li>
-						<li><a href="#portfolio">Portfolio</a></li>
-						<li><a href="#service">Service</a></li>
-						<li><a href="#testimonial">Testimonial</a></li>
-						<li><a href="#blog">Blog</a></li>
-						<li><a href="#contact">Contact</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- /HEADER -->
-	
-	<!-- HERO -->
-	<div class="aali_tm_section" id="home">
-		<div class="aali_tm_hero">
-			<div class="container">
-				<div class="hero_inner">
-					<div class="content">
-						<span class="hello">Hello, I'm</span>
-						<h3 class="name">Ruslan Havrylov</h3>
-						<!-- <h3 class="stroke_text"><span class="">Ruslan Havrylov</span></h3> -->
-						<div class="job">
-							<span class="cd-headline letters rotate-2"> <!-- ANIMATE TEXT VALUES: zoom, rotate-1, letters type, letters rotate-2, loading-bar, slide, clip, letters rotate-3, letters scale, push,  -->
-								<!-- <br> -->
-								<span class="cd-words-wrapper">
-									<b class="is-visible">Blockchain</b>
-									<b>Fullstack</b>
-								</span>
-								&nbsp;&nbsp;
-								<span class="blc">Developer</span>
-							</span>
-						</div>
-						<div class="hero_buttons">
-							<div class="aali_tm_button">
-								<a class="anchor" href="#contact"><span>Say Hello <img class="svg" src="img/svg/message.svg" alt="" /></span></a>
-							</div>
-							<div class="simple_button">
-								<a class="anchor" href="#about">About Me</a>
-							</div>
-						</div>
-						<div class="aali_tm_down">
-							<div class="down-icon white top_120">
-								<a class="anchor" href="#about">
-									<svg width="26px" height="100%" viewBox="0 0 247 390" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
-										<path id="wheel" d="M123.359,79.775l0,72.843" style="fill:none;stroke:#fff;stroke-width:20px;"/>
-										<path id="mouse" d="M236.717,123.359c0,-62.565 -50.794,-113.359 -113.358,-113.359c-62.565,0 -113.359,50.794 -113.359,113.359l0,143.237c0,62.565 50.794,113.359 113.359,113.359c62.564,0 113.358,-50.794 113.358,-113.359l0,-143.237Z" style="fill:none;stroke:#fff;stroke-width:20px;"/>
-									</svg>
-								</a>
-							</div>
-						</div>
-					</div>
-					<div class="avatar parallax" data-relative-input="true">
-						<div class="main">
-							<img src="img/hero/image_1.png" alt="" class="layer" data-depth="0.1" />
-						</div>
-						<span class="one"><span class="in layer" data-depth="0.14"></span></span>
-						<span class="two"><span class="in layer" data-depth="0.18"></span></span>
-						<span class="three"><span class="in layer" data-depth="0.22"></span></span>
-						<span class="four"><span class="in layer" data-depth="0.26"></span></span>
-						<span class="five"><span class="in layer" data-depth="0.3"></span></span>
-						<!-- <h3 class="stroke_text"><span class="">Ruslan</span></h3> -->
-					</div>
-				</div>
-			</div>
-			<!-- <div class="socials">
-				<ul>
-					<li><a href="#"><img class="svg" src="img/svg/social/facebook.svg" alt="" /></a></li>
-					<li><a href="#"><img class="svg" src="img/svg/social/twitter.svg" alt="" /></a></li>
-					<li><a href="#"><img class="svg" src="img/svg/social/instagram.svg" alt="" /></a></li>
-				</ul>
-			</div> -->
-			<div class="hero_mail">
-				<a class="line_anim" href="#">devhavrylov@gmail.com</a>
-			</div>
-		</div>
-	</div>
-	<!-- /HERO -->
-	
-	<!-- ABOUT -->
-	<div class="aali_tm_section" id="about">
-		<div class="aali_tm_about">
-			<div class="about_inner">
-				<div class="left">
-					<div class="image">
-						<img src="img/thumbs/45-49.jpg" alt="" />
-						<div class="main" data-img-url="img/about/back2.jpg"></div>
-						<span class="square moving_effect" data-direction="y" data-reverse="yes"></span>
-						<span class="border"><span class="in moving_effect" data-direction="x" data-reverse="yes"></span></span>
-					</div>
-				</div>
-				<div class="center">
-					<div class="title wow fadeInUp" data-wow-duration="1s">
-						<span class="small">About Me</span>
-						<h3>I'm <span>Ruslan</span></h3>
-						<h3>Web <span>Developer</span></h3>
-						<span class="subtitle">Based in Mariupol, Ukraine</span>
-					</div>
-					<div class="text wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
-						<p>Hi! My name is Ruslan Havrylov. I am <b>Blockchain / Fullstack</b> developer, and I'm very passionate and dedicated to my work.</p>
-						<p>With 4 years experience as a professional Blockchain and Fullstack developer, I have acquired the skills and knowledge necessary to make your project a success.</p>
-					</div>
-					<div class="aali_tm_button wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
-						<a href="img/cv/2.pdf"><span>Download CV <img class="svg" src="img/svg/download.svg" alt="" /></span></a>
-					</div>
-				</div>
-				<div class="right">
-					<div class="image">
-						<img src="img/thumbs/41-61.jpg" alt="" />
-						<div class="main" data-img-url="img/about/hero1.jpg"></div>
-						<div class="square moving_effect" data-direction="x" data-reverse="no"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- /ABOUT -->
-	
-	<!-- SKILLS -->
-	<div class="aali_tm_section">
-		<div class="aali_tm_skills">
-			<div class="container">
-				<div class="skills_inner">
-					<div class="left wow fadeInLeft" data-wow-duration="1s">
-						<div class="aali_tm_main_title" data-text-align="left" data-color="light">
-							<span>My Skills</span>
-							<h3>You Can Imagine<br /> I Can Do</h3>
-							<p>Hard-working web developer with a flair for creating elegant solutions in the least amount of time. Developed an ecommerce webapp, customer web portal, documentary launch website, and donations webapp for a local charity. Passionate about software architecture and cloud computing. </p>
-						</div>
-					</div>
-					<div class="right wow fadeInRight" data-wow-duration="1s">
-						<div class="dodo_progress">
-							<div class="progress_inner" data-value="90">
-								<span><span class="label">Solidity</span><span class="number">90%</span></span>
-								<div class="background"><div class="bar"><div class="bar_in"></div></div></div>
-							</div>
-							<div class="progress_inner" data-value="88" >
-								<span><span class="label">Ruby on Rails</span><span class="number">90%</span></span>
-								<div class="background"><div class="bar"><div class="bar_in"></div></div></div>
-							</div>
-							<div class="progress_inner" data-value="90">
-								<span><span class="label">React/Redux</span><span class="number">88%</span></span>
-								<div class="background"><div class="bar"><div class="bar_in"></div></div></div>
-							</div>
-							<div class="progress_inner" data-value="90">
-								<span><span class="label">Web3/Ethers</span><span class="number">85%</span></span>
-								<div class="background"><div class="bar"><div class="bar_in"></div></div></div>
-							</div>
-							<div class="progress_inner" data-value="87">
-								<span><span class="label">Python</span><span class="number">87%</span></span>
-								<div class="background"><div class="bar"><div class="bar_in"></div></div></div>
-							</div>
-							<div class="progress_inner" data-value="95">
-								<span><span class="label">JavaScript / TypeScript</span><span class="number">95%</span></span>
-								<div class="background"><div class="bar"><div class="bar_in"></div></div></div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<span class="border moving_effect" data-direction="x" data-reverse="yes"></span>
-		</div>
-	</div>
-	<!-- /SKILLS -->
-	
-	<!-- PORTFOLIO -->
-	<div class="aali_tm_section help" id="portfolio">
-		<div class="aali_tm_portfolio wow fadeInUp" data-wow-duration="1s">
-			<div class="container">
-				<div class="aali_tm_main_title" data-text-align="center" data-color="light">
-					<span>Selected works</span>
-					<h3>Check my portfolio</h3>
-				</div>
-				<div class="portfolio_filter">
-					<ul>
-						<li><a href="#" class="current" data-filter="*">All</a></li>
-						<li><a href="#" data-filter=".Fullstack">Fullstack</a></li>
-						<li><a href="#" data-filter=".nft">NFT</a></li>
-					</ul>
-				</div>
-				<div class="portfolio_list">
-					<ul class="gallery_zoom">
-						<li class="Fullstack">
-							<div class="list_inner">
-								<div class="image">
-									<img src="img/thumbs/1-1.jpg" alt="" />
-									<div class="main" data-img-url="img/portfolio/Fullstack/Heroncode/preview.jpg"></div>
-								</div>
-								<div class="overlay"></div>
-								<img class="svg" src="img/svg/text.svg" alt="" />
-								<div class="details">
-									<span>Fullstack | React</span>
-									<h3>Heron Code</h3>
-								</div>
-								<a class="aali_tm_full_link portfolio_popup" href="img/portfolio/Fullstack/Heroncode/preview.jpg"></a>
+    <!-- Wrapper Start -->
+    <div class="wrapper">
+        <!-- Header Section Start -->
+        <header id="header" class="header--section">
+            <!-- Header Navbar Start -->
+            <nav class="header--navbar navbar">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#headerNav">
+                            <span class="sr-only">Toggle Navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
 
-								<div class="hidden_content">
-									<div class="popup_details">
-										<div class="main_details">
-											<div class="textbox">
-												<p>Heron of Alexandria (/ˈhɛrən/; c. 10 AD – c. 70 AD); Considered by many scholars as the greatest experimenter of antiquity.</p>
-												<ol>
-													<li>Front End - HTML / CSS / ReactJS</li>
-													<li>Backend - MongoDB / Express</li>
-												</ol>
-											</div>
-											<div class="detailbox">
-												<ul>
-													<li>
-														<span class="first">Url</span>
-														<span><a href="https://heroncode.com/">https://heroncode.com/</a></span>
-													</li>
-													<li>
-														<span class="first">Date</span>
-														<span>Jan 2020 ~ Nov 2020</span>
-													</li>
-												</ul>
-											</div>
-										</div>
-										<div class="additional_images">
-											<ul>
-												<li>
-													<div class="list_inner">
-														<div class="my_image">
-															<img src="img/thumbs/4-2.jpg" alt="" />
-															<div class="main" data-img-url="img/portfolio/Fullstack/Heroncode/1.png"></div>
-														</div>
-													</div>
-												</li>
-												<li>
-													<div class="list_inner">
-														<div class="my_image">
-															<img src="img/thumbs/4-2.jpg" alt="" />
-															<div class="main" data-img-url="img/portfolio/Fullstack/Heroncode/2.png"></div>
-														</div>
-													</div>
-												</li>
-												<li>
-													<div class="list_inner">
-														<div class="my_image">
-															<img src="img/thumbs/4-2.jpg" alt="" />
-															<div class="main" data-img-url="img/portfolio/Fullstack/Heroncode/3.png"></div>
-														</div>
-													</div>
-												</li>
-												<li>
-													<div class="list_inner">
-														<div class="my_image">
-															<img src="img/thumbs/4-2.jpg" alt="" />
-															<div class="main" data-img-url="img/portfolio/Fullstack/Heroncode/4.png"></div>
-														</div>
-													</div>
-												</li>
-												<li>
-													<div class="list_inner">
-														<div class="my_image">
-															<img src="img/thumbs/4-2.jpg" alt="" />
-															<div class="main" data-img-url="img/portfolio/Fullstack/Heroncode/5.png"></div>
-														</div>
-													</div>
-												</li>
-												<li>
-													<div class="list_inner">
-														<div class="my_image">
-															<img src="img/thumbs/4-2.jpg" alt="" />
-															<div class="main" data-img-url="img/portfolio/Fullstack/Heroncode/6.png"></div>
-														</div>
-													</div>
-												</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-						</li>
-						<li class="Fullstack">
-							<div class="list_inner">
-								<div class="image">
-									<img src="img/thumbs/1-1.jpg" alt="" />
-									<div class="main" data-img-url="img/portfolio/Fullstack/WiseRoot/preview.png"></div>
-								</div>
-								<div class="overlay"></div>
-								<img class="svg" src="img/svg/text.svg" alt="" />
-								<div class="details">
-									<span>Fullstack | Vue</span>
-									<h3>WiseRoot</h3>
-								</div>
-								<a class="aali_tm_full_link portfolio_popup" href="img/portfolio/Fullstack/WiseRoot/preview.png"></a>
+                        <!-- Logo Start -->
+                        <a href="index.html" class="navbar-brand">
+                            <span class="vc--parent">
+                                <span class="vc--child">
+                                    <img src="img/logo.png" alt="">
+                                </span>
+                            </span>
+                        </a>
+                        <!-- Logo End -->
+                    </div>
 
-								<div class="hidden_content">
-									<div class="popup_details">
-										<div class="main_details">
-											<div class="textbox">
-												<p>Ecommerce Site</p>
-												<ol>
-													<li>Front End - VueJS / Vuetify</li>
-													<li>Backend - MongoDB / Express</li>
-													<li>API - Stripe</li>
-												</ol>
-											</div>
-											<div class="detailbox">
-												<ul>
-													<li>
-														<span class="first">Url</span>
-														<span><a href="https://thewiseroot.uk/">https://thewiseroot.uk/</a></span>
-													</li>
-													<li>
-														<span class="first">Date</span>
-														<span>Jun 2019 ~ Dec 2019</span>
-													</li>
-												</ul>
-											</div>
-										</div>
-										<div class="additional_images">
-											<ul>
-												<li>
-													<div class="list_inner">
-														<div class="my_image">
-															<img src="img/thumbs/4-2.jpg" alt="" />
-															<div class="main" data-img-url="img/portfolio/Fullstack/WiseRoot/1.png"></div>
-														</div>
-													</div>
-												</li>
-												<li>
-													<div class="list_inner">
-														<div class="my_image">
-															<img src="img/thumbs/4-2.jpg" alt="" />
-															<div class="main" data-img-url="img/portfolio/Fullstack/WiseRoot/2.png"></div>
-														</div>
-													</div>
-												</li>
-												<li>
-													<div class="list_inner">
-														<div class="my_image">
-															<img src="img/thumbs/4-2.jpg" alt="" />
-															<div class="main" data-img-url="img/portfolio/Fullstack/WiseRoot/3.png"></div>
-														</div>
-													</div>
-												</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-						</li>
-						<li class="Fullstack">
-							<div class="list_inner">
-								<div class="image">
-									<img src="img/thumbs/1-1.jpg" alt="" />
-									<div class="main" data-img-url="img/portfolio/Fullstack/Vendanges/preview.png"></div>
-								</div>
-								<div class="overlay"></div>
-								<img class="svg" src="img/svg/text.svg" alt="" />
-								<div class="details">
-									<span>Fullstack | React</span>
-									<h3>Vendanges</h3>
-								</div>
-								<a class="aali_tm_full_link portfolio_popup" href="img/portfolio/Fullstack/Vendanges/preview.png"></a>
+                    <div id="headerNav" class="navbar-collapse collapse">
+                        <!-- Header Nav Links Start -->
+                        <ul class="header--nav-links ff--primary nav navbar-right">
+                            <li class="active"><a href="#header" data-trigger="scroll">Home</a></li>
+                            <li><a href="#aboutme" data-trigger="scroll">About Me</a></li>
+                            <li><a href="#services" data-trigger="scroll">Services</a></li>
+                            <li><a href="#portfolio" data-trigger="scroll">Portfolio</a></li>
+                            <li><a href="#skills" data-trigger="scroll">Skills</a></li>
+                            <li><a href="#contact" data-trigger="scroll">Contact</a></li>
+                        </ul>
+                        <!-- Header Nav Links End -->
+                    </div>
+                </div>
+            </nav>
+            <!-- Header Navbar End -->
+        </header>
+        <!-- Header Section End -->
 
-								<div class="hidden_content">
-									<div class="popup_details">
-										<div class="main_details">
-											<div class="textbox">
-												<p>Ecommerce Site</p>
-												<ol>
-													<li>Front End - ReactJS / MUI</li>
-													<li>Backend - MongoDB/Express</li>
-													<li>API - Stripe</li>
-												</ol>
-											</div>
-											<div class="detailbox">
-												<ul>
-													<li>
-														<span class="first">Url</span>
-														<span><a href="https://hinderer-wolff.fr/grands-crus">https://hinderer-wolff.fr/grands-crus</a></span>
-													</li>
-													<li>
-														<span class="first">Date</span>
-														<span>Apr 2018 ~ Dec 2018</span>
-													</li>
-												</ul>
-											</div>
-										</div>
-										<div class="additional_images">
-											<ul>
-												<li>
-													<div class="list_inner">
-														<div class="my_image">
-															<img src="img/thumbs/4-2.jpg" alt="" />
-															<div class="main" data-img-url="img/portfolio/Fullstack/Vendanges/1.png"></div>
-														</div>
-													</div>
-												</li>
-												<li>
-													<div class="list_inner">
-														<div class="my_image">
-															<img src="img/thumbs/4-2.jpg" alt="" />
-															<div class="main" data-img-url="img/portfolio/Fullstack/Vendanges/2.png"></div>
-														</div>
-													</div>
-												</li>
-												<li>
-													<div class="list_inner">
-														<div class="my_image">
-															<img src="img/thumbs/4-2.jpg" alt="" />
-															<div class="main" data-img-url="img/portfolio/Fullstack/Vendanges/3.png"></div>
-														</div>
-													</div>
-												</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-						</li>
-						
-						<li class="nft">
-							<div class="list_inner">
-								<div class="image">
-									<img src="img/thumbs/1-1.jpg" alt="" />
-									<div class="main" data-img-url="img/portfolio/nft/Pudgy-Penguin/preview.jpg"></div>
-								</div>
-								<div class="overlay"></div>
-								<img class="svg" src="img/svg/text.svg" alt="" />
-								<div class="details">
-									<span>NFT</span>
-									<h3>PUDGY Penguins</h3>
-								</div>
-								<a class="aali_tm_full_link portfolio_popup" href="#"></a>
+        <!-- Banner Section Start -->
+        <section id="banner" class="banner--section" data-bg-parallax="img/banner-img/bg.jpg" data-overlay="0.8">
+            <div class="vc--parent">
+                <div class="vc--child">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2">
+                                <!-- Banner Content Start -->
+                                <div class="banner--content text-center pt--160 pb--100">
+                                    <div class="title text-uppercase">
+                                        <h2 class="h3 text-white"><span class="text-primary">Hello</span> I'm</h2>
+                                    </div>
 
-								<div class="hidden_content">
-									<div class="popup_details">
-										<div class="main_details">
-											<div class="textbox">
-												<p>Pudgy Penguins is a collection of 8,888 randomly generated Pudgy Penguin NFTs on the Ethereum blockchain. The 8888 Pudgy Penguins create our community known as The Huddle. Our penguins are pudgy, cute, fun, and a little goofy. Pudgy Penguins are known for eating too many fish and creating legendary memes.</p>
-											</div>
-											<div class="detailbox">
-												<ul>
-													<li>
-														<span class="first">Url</span>
-														<span><a href="https://www.pudgypenguins.io/">https://www.pudgypenguins.io/</a></span>
-													</li>
-													<li>
-														<span class="first">Date</span>
-														<span>March 2020 ~ Oct 2020</span>
-													</li>
-												</ul>
-											</div>
-										</div>
-										<div class="additional_images">
-											<ul>
-												<li>
-													<div class="list_inner">
-														<div class="my_image">
-															<img src="img/thumbs/4-2.jpg" alt="" />
-															<div class="main" data-img-url="img/portfolio/nft/Pudgy-Penguin/Pudgy-Penguins-1.png"></div>
-														</div>
-													</div>
-												</li>
-												<li>
-													<div class="list_inner">
-														<div class="my_image">
-															<img src="img/thumbs/4-2.jpg" alt="" />
-															<div class="main" data-img-url="img/portfolio/nft/Pudgy-Penguin/Pudgy-Penguins-2.png"></div>
-														</div>
-													</div>
-												</li>
-												<li>
-													<div class="list_inner">
-														<div class="my_image">
-															<img src="img/thumbs/4-2.jpg" alt="" />
-															<div class="main" data-img-url="img/portfolio/nft/Pudgy-Penguin/Pudgy-Penguins-3.png"></div>
-														</div>
-													</div>
-												</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-						</li>
-						<li class="nft">
-							<div class="list_inner">
-								<div class="image">
-									<img src="img/thumbs/1-1.jpg" alt="" />
-									<div class="main" data-img-url="img/portfolio/nft/Toothless-Wizard/preview.jpg"></div>
-								</div>
-								<div class="overlay"></div>
-								<img class="svg" src="img/svg/text.svg" alt="" />
-								<div class="details">
-									<span>NFT</span>
-									<h3>Toothless Wizard</h3>
-								</div>
-								<a class="aali_tm_full_link portfolio_popup" href="#"></a>
+                                    <div class="name text-uppercase">
+                                        <h3 class="h2 text-white">Ruslan Havrylov</h3>
+                                    </div>
 
-								<div class="hidden_content">
-									<div class="popup_details">
-										<div class="main_details">
-											<div class="textbox">
-												<p>The Toothless Wizards is a collection of 10,000 unique Toothless Wizards NFTs who live in NoToothLand on the ETH blockchain. Ownership includes creative & commercial rights of your Toothless Wizards as well as initiation into the brotherhood.</p>
-											</div>
-											<div class="detailbox">
-												<ul>
-													<li>
-														<span class="first">Url</span>
-														<span><a href="https://demo-toothlesswizards.tilda.ws/">https://demo-toothlesswizards.tilda.ws/</a></span>
-													</li>
-													<li>
-														<span class="first">Date</span>
-														<span>Oct 2019 ~ May 2020</span>
-													</li>
-												</ul>
-											</div>
-										</div>
-										<div class="additional_images">
-											<ul>
-												<li>
-													<div class="list_inner">
-														<div class="my_image">
-															<img src="img/thumbs/4-2.jpg" alt="" />
-															<div class="main" data-img-url="img/portfolio/nft/Toothless-Wizard/1.png"></div>
-														</div>
-													</div>
-												</li>
-												<li>
-													<div class="list_inner">
-														<div class="my_image">
-															<img src="img/thumbs/4-2.jpg" alt="" />
-															<div class="main" data-img-url="img/portfolio/nft/Toothless-Wizard/2.png"></div>
-														</div>
-													</div>
-												</li>
-												<li>
-													<div class="list_inner">
-														<div class="my_image">
-															<img src="img/thumbs/4-2.jpg" alt="" />
-															<div class="main" data-img-url="img/portfolio/nft/Toothless-Wizard/3.png"></div>
-														</div>
-													</div>
-												</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-						</li>
-						<li class="nft">
-							<div class="list_inner">
-								<div class="image">
-									<img src="img/thumbs/1-1.jpg" alt="" />
-									<div class="main" data-img-url="img/portfolio/nft/DogeDash/preview.jpg"></div>
-								</div>
-								<div class="overlay"></div>
-								<img class="svg" src="img/svg/text.svg" alt="" />
-								<div class="details">
-									<span>NFT</span>
-									<h3>Doge Dash</h3>
-								</div>
-								<a class="aali_tm_full_link portfolio_popup" href="#"></a>
+                                    <div class="role fs--18 fw--700 text-white">
+                                        <p>Professional Web Developer</p>
+                                    </div>
 
-								<div class="hidden_content">
-									<div class="popup_details">
-										<div class="main_details">
-											<div class="textbox">
-												<p>Cosmic Paws</p>
-												<p>Dodge Dash is a whole new cryptocurrency that's out right now, but this time the developers didn't just release a new Crypto but released a mobile game along with it. And the game is quite eye-catching and addictive because you can either play the game wanting to win or play to enjoy the game. </p>
-												<p>Ultimately, this game is an endless free-to-play runner that carries inspiration from Super Mario and changes things up a bit to look a lot modern and fast-paced. The gameplay has you running and jumping as a cute puppy and evading enemies as you run and collect coins. </p>
-												
-											</div>
-											<div class="detailbox">
-												<ul>
-													<li>
-														<span class="first">Url</span>
-														<span><a href="https://dogedash.com/">https://dogedash.com/</a></span>
-													</li>
-													<li>
-														<span class="first">Date</span>
-														<span>Nov 2020 ~ June 2021</span>
-													</li>
-												</ul>
-											</div>
-										</div>
-										<div class="additional_images">
-											<ul>
-												<li>
-													<div class="list_inner">
-														<div class="my_image">
-															<img src="img/thumbs/4-2.jpg" alt="" />
-															<div class="main" data-img-url="img/portfolio/nft/DogeDash/1.png"></div>
-														</div>
-													</div>
-												</li>
-												<li>
-													<div class="list_inner">
-														<div class="my_image">
-															<img src="img/thumbs/4-2.jpg" alt="" />
-															<div class="main" data-img-url="img/portfolio/nft/DogeDash/2.png"></div>
-														</div>
-													</div>
-												</li>
-												<li>
-													<div class="list_inner">
-														<div class="my_image">
-															<img src="img/thumbs/4-2.jpg" alt="" />
-															<div class="main" data-img-url="img/portfolio/nft/DogeDash/4.png"></div>
-														</div>
-													</div>
-												</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- /PORTFOLIO -->
-	
-	<!-- RESUME -->
-	<div class="aali_tm_section">
-		<div class="aali_tm_resume">
-			<div class="content">
-				<div class="container">
-					<div class="resume_in">
-						<div class="aali_tm_main_title" data-text-align="left" data-color="dark">
-							<span>Know More</span>
-							<h3>My Resume</h3>
-							<p>I enjoy every step of the Web Building process, from discussion and collaboration to concept and execution</p>
-						</div>
-						<div class="content_inner">
-							<ul>
-								<li class="wow fadeInLeft" data-wow-duration="1s">
-									<h3 class="main_title"><span>Education</span></h3>
-									<ul class="list">
-										<li>
-											<div class="list_inner">
-												<span class="icon"><img class="svg" src="img/svg/degree.svg" alt="" /></span>
-												<div class="info">
-													<div class="left">
-														<h3>Bachelor of Software Engineering</h3>
-														<span>Mariupol State University</span>
-													</div>
-													<div class="right">
-														<span>2017 - 2021</span>
-													</div>
-												</div>
-												<div class="text">
-													<p>
-														Followed my passion in a core of prototyping and cloud computing classes.
-														Excelled in user experience and user interfaces.
-														Pursued a Generalist Scholars grant to study software architecture.
-														Wrote a column on the future of the internet for the student paper.
-													</p>
-												</div>
-											</div>
-										</li>
-									</ul>
-								</li>
-								<li class="wow fadeInRight" data-wow-duration="1s">
-									<h3 class="main_title"><span>Experience</span></h3>
-									<ul class="list">
-										<li>
-											<div class="list_inner">
-												<span class="icon"><img class="svg" src="img/svg/case.svg" alt="" /></span>
-												<div class="info">
-													<div class="left">
-														<h3>Full Stack Developer</h3>
-													</div>
-													<div class="right">
-														<span>2016 - Present</span>
-													</div>
-												</div>
-												<div class="text">
-													<p>	
-														Developed 6+ years of full-stack web applications to analyze and process data for different clients.
-														Ensure applications security and ability to interact with multiple APIs and databases. 
-														Designed and created a knowledge management platform on a knowledge graph, utilizing a range of technologies, including Node.js, Typescript, Dgraph, React, and Mobx.
-													</p>
-												</div>
-											</div>
-										</li>
-										<li>
-											<div class="list_inner">
-												<span class="icon"><img class="svg" src="img/svg/case.svg" alt="" /></span>
-												<div class="info">
-													<div class="left">
-														<h3>Blockchain Developer</h3>
-													</div>
-													<div class="right">
-														<span>2018 - Present</span>
-													</div>
-												</div>
-												<div class="text">
-													<p>
-														Able to understand of cryptocurrency and/or blockchain technology.
-														Has launched token sales (ideally on EVM-compatible blockchains with ERC20 compliant tokens and NFTs).
-														Experience in other programming languages and frameworks / favorable protocols: Solidity, Go, Haskell, Hardhat, Foundry, and Openzeppelin.
-													</p>
-												</div>
-											</div>
-										</li>
-									</ul>
-								</li>
-							</ul>
-						</div>
-					
-					</div>
-				</div>
-			</div>
-			<div class="media" data-background-style="video"> <!-- Background Styles: "video" and "image" // Also you can use any youtube, vimeo, and local videos -->
-				<div class="video jarallax" data-speed="0" data-jarallax-video="https://vimeo.com/337293658"></div>
-				<div class="image jarallax" data-speed="0" data-img-url="img/about/2.jpg"></div>
-				<span class="square moving_effect" data-direction="y" data-reverse="yes"></span>
-			</div>
-		</div>
-	</div>
-	<!-- /RESUME -->
-	
-	<!-- TESTIMONIALS -->
-	<div class="aali_tm_section" id="testimonial">
-		<div class="aali_tm_testimonials">
-			<div class="left">
-				<div class="image">
-					<img src="img/hero/3.jpg" alt="" />
-				</div>
-			</div>
-			<div class="right">
-				<div class="right_in">
-					<div class="aali_tm_main_title" data-text-align="left" data-color="light">
-						<span>Testimonial</span>
-						<h3>What People Say</h3>
-					</div>
-					<ul class="owl-carousel">
-						<li class="item">
-							<div class="text">
-								<p>“Ruslan's contributed to helping solve a functionality issue we were having with embedded forms on a squarespace site. He started working on the issue immediately and communicated well.”</p>
-							</div>
-							<div class="name">
-								<h3>Niamh Lyonhart <span>Client</span></h3>
-							</div>
-						</li>
-						<li class="item">
-							<div class="text">
-								<p>“He understands what he is doing. He was able to do his own research to get the job done quickly without any quality issue. I expected the job to be completed in a week, he has done it in within 2 days. He is good.”</p>
-							</div>
-							<div class="name">
-								<h3>Quan Hoang <span>Client</span></h3>
-							</div>
-						</li>
-						<li class="item">
-							<div class="text">
-								<p>“If you have the opportunity to work with Ruslan, I say go for it! You are guaranteed an enjoyable and productive experience. Ruslan is skilled at what he does and we look forward to working with Ruslan again for our next NFT project!”</p>
-							</div>
-							<div class="name">
-								<h3>Tom Anderson, <span>Client</span></h3>
-							</div>
-						</li>
-					</ul>
-					<div class="direct">
-						<a class="prev_button" href="#"><i class="icon-left"></i></a>
-						<a class="next_button" href="#"><i class="icon-right"></i></a>
-					</div>
-				</div>
-			</div>
-			<span class="border"><span class="in moving_effect" data-direction="x" data-reverse="yes"></span></span>
-			<span class="square moving_effect" data-direction="y" data-reverse="yes"></span>
-			<span class="quote moving_effect" data-direction="x"><i class="icon-quote-left"></i></span>
-		</div>
-	</div>
-	<!-- /TESTIMONIALS -->
-	
-	<!-- NEWS -->
-	<div class="aali_tm_section" id="blog">
-		<div class="aali_tm_news">
-			<div class="container">
-				<div class="aali_tm_main_title" data-text-align="center" data-color="dark">
-					<span>Latest Updates</span>
-					<h3>From My Blog</h3>
-					<p>We offer high quality products for competitive prices. Our main goal is customer satisfaction</p>
-				</div>
-				<div class="news_list">
-					<ul>
-						<li class="wow fadeInLeft" data-wow-duration="1s">
-							<div class="list_inner">
-								<div class="image">
-									<img src="img/thumbs/42-29.jpg" alt="" />
-									<div class="main" data-img-url="img/news/11.jpg"></div>
-									<a class="aali_tm_full_link" href="#"></a>
-								</div>
-								<div class="details">
-									<span class="category"><a href="#">Blockchain | NFT</a></span>
-									<h3 class="title"><a href="#">The Advent of NFT Ecosystems</a></h3>
-								</div>
-								<div class="button">
-									<div class="aali_tm_learn_more">
-										<a href="#">Full Story</a>
-									</div>
-								</div>
-								<div class="news_hidden_details">
-									<div class="news_popup_informations">
-										<div class="text">
-											<p>As marketplaces have sprung up around NFTs, creators have taken advantage of their possibilities in different ways.</p>
-											<p>The best-known examples are the digital art market, described above, and digital collectables platforms, such as Dapper Labs’s NBA Top Shot, which enables users to collect and exchange NFTs of exciting plays from basketball games — videos called “moments,” which are effectively digital trading cards. Top Shot has been building in gamified challenges and other reasons to own the cards beyond just their pure collectible value, even teasing that moment holders may eventually receive real-world benefits from the NBA.</p>
-											<p>But what’s emerged more recently is a model of active ecosystem-building around NFT-native properties — leading to novel organizations developed entirely within the NFT space. These products start with an NFT series, but project forward a roadmap under which holders of the NFT gain access to an expanding array of products, activities, and experiences. Revenue from initial and subsequent NFT sales is fed back into the brand, supporting increasingly ambitious projects — which in turn drive up the value of the NFTs themselves.</p>
-											<p>The Bored Ape Yacht Club, for example, comprises a series of NFT ape images conferring membership in an online community. The project started with a series of private chat rooms and a graffiti board, and has grown to include high-end merchandise, social events, and even an actual yacht party. SupDucks and the Gutter Cat Gang similarly began building communities around NFT image series and associated online spaces; the former has bridged into a boardwalk-themed metaverse game, and the latter has focused on real-world benefits like extravagant in-person events.</p>
-											<p>People often take on membership in these collectives as part of their personal identity — even using their favorite NFT image as their public profile picture on social media. Each NFT community has different personalities and purposes, and there are so many by now that almost everyone can find a group they can call their own. In this way, NFT ownership provides an immediate shared text that people can use to connect with each other.</p>
-											<p>And moreover, in many of these communities, ownership also conveys partial or full commercial rights — or even some degree of governance in how the community is run — which means people members can build properties on top of their NFTs that grow the value of the overall brand. Crucially, this creates a channel by which engaged fandom can feed back into the brand itself: “Jenkins the Valet” is a Bored Ape member-created project that has effectively become its own sub-brand. Individual SupDucks members have created art and character identities around their NFTs that have been absorbed into the SupDucks metaverse. And community-created fan projects have built out parts of the Gutter Cat Gang story arc.</p>
-											<p>All of these benefits make owning the associated NFTs more valuable — and almost paradoxically, this increase in the value of ownership comes in a form that helps separate the value of ownership from the purely financial opportunity of reselling.</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</li>
-						<li class="wow fadeInRight" data-wow-duration="1s">
-							<div class="list_inner">
-								<div class="image">
-									<img src="img/thumbs/42-29.jpg" alt="" />
-									<div class="main" data-img-url="img/news/22.jpg"></div>
-									<a class="aali_tm_full_link" href="#"></a>
-								</div>
-								<div class="details">
-									<span class="category"><a href="#">Blockchain | NFT</a></span>
-									<h3 class="title"><a href="#">How Gamified NFTs are Changing the Future of Gaming</a></h3>
-								</div>
-								<div class="button">
-									<div class="aali_tm_learn_more">
-										<a href="#">Full Story</a>
-									</div>
-								</div>
-								<div class="news_hidden_details">
-									<div class="news_popup_informations">
-										<div class="text">
-											<p>NFTs are a new technology taking the world by storm. They are disrupting numerous fields, from art and sports collectables to real estate and gaming. </p>
-											<p>In viewing the excitement around NFTs, the good, the bad, and the ugly are visible. No doubt, there is a lot of hype and lofty valuations surrounding generative character projects, whether in pixel or ape format. If one observes this, they tend to either get the FOMO and make a risky investment or dismiss NFTs with the "it's just a JPEG" thought.</p>
-											<p>As an investor, it is sometimes wise to step back and observe what is happening from a scientific point of view. American scientist and futurist Roy Charles Amara (1925-2007) marked the implementation of new technology. This has been called Amara's Law. He said:</p>
-											<p>"We tend to overestimate the effect of a technology in the short run and underestimate the effect in the long run."</p>
-											<p>They first appeared as a fad in 2017 with a pixel art CryptoPunks giveaway and a Crypto Kitties video game that gained short term popularity. Then when the cryptocurrency bear market started in 2018, NFTs continued to develop but very quietly. In March 2021, the subject of NFTs again exploded, with numerous artists making massive waves. From Beeple ($69 million) to Fewocious ($2 million) selling their art at a Christie's auction to individual artists selling on OpenSea, unless you're living under a rock, you've heard of NFTs thanks to them. </p>
-											<p>And legacy players have been catching on about NFTs, from CNN and FoxNews and Fortune in the mainstream media to Coca Cola and Budweiser in the beverage industry. GameStop has also announced the launch of their own NFT project.</p>
-											<p>On top of that, we live in an ever-growing digital world. The COVID-19 pandemic has served to speed up a process that was already well underway. It only makes that blockchain and NFTs are going to disrupt more and more fields. </p>
-											<p>And the most logical next stop is none other than gaming. Gaming itself was already growing before COVID. One analysis projected a 12.9% annual growth rate every year from 2020 through 2027. After COVID, this exploded. Per one report in 2020, the industry saw a growth of 23.1%. This same report noted the growing popularity of eSports tournaments and the growing influence of social media in gaming. </p>
-											<p>Blockchain technology and NFTs are seeing massive growth. And they are perfect for joining this field. Here are three major solutions to problems of the legacy gaming industry:</p>
-											<ol>
-												<li>NFTs allow users to purchase or earn, and then own their in-game assets. This prevents the issue of account theft. </li>
-												<li>Users could even port them across different games, generating new avenues of value for the sector. </li>
-												<li>Decentralization, a growing business trend, could help smaller developers take control of the small handful of big gaming giants that have dominated the space. </li>
-											</ol>
-										</div>
-									</div>
-								</div>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- /NEWS -->
-	
-	<!-- COUNTER -->
-	<div class="aali_tm_section">
-		<div class="aali_tm_counter">
-			<div class="container">
-				<div class="counter_list">
-					<ul class="wow fadeIn" data-wow-duration="1s">
-						<li>
-							<div class="list_inner">
-								<div class="wrapper">
-									<div class="value">
-										<span class="abs"><span class="tm_counter" data-from="0" data-to="4" data-speed="1200">0</span><label class="big">K</label></a>
-									</div>
-									<div class="text">
-										<h3>JavaScript<br />Projects</h3>
-									</div>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div class="list_inner">
-								<div class="wrapper">
-									<div class="value">
-										<span class="abs"><span class="tm_counter" data-from="0" data-to="10" data-speed="1200">0</span><label class="small">+</label></span>
-									</div>
-									<div class="text">
-										<h3>Fullstack/Blockchain<br />Projects</h3>
-									</div>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div class="list_inner">
-								<div class="wrapper">
-									<div class="value">
-										<span class="abs"><span class="tm_counter" data-from="0" data-to="10" data-speed="1200">0</span><label class="small">+</label></span>
-									</div>
-									<div class="text">
-										<h3>Happy<br />Clients</h3>
-									</div>
-								</div>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<span class="border moving_effect" data-direction="x"></span>
-		</div>
-	</div>
-	<!-- /COUNTER -->
-	
-	<!-- CONTACT -->
-	<!-- <div class="aali_tm_section" id="contact">
-		<div class="aali_tm_contact">
-			<div class="container">
-				<div class="aali_tm_main_title" data-text-align="center" data-color="dark">
-					<span>Get in Touch</span>
-					<h3>Contact Me Anytime</h3>
-				</div>
-				<div class="contact_inner">
-					<div class="left wow fadeInLeft" data-wow-duration="1s">
-						<div class="text">
-							<p>Please fill out the form on this section to contact with me. Ping me anytime.</p>
-						</div>
-						<ul>
-							<li>
-								<div class="list_inner">
-									<img class="svg" src="img/svg/call.svg" alt="" />
-									<span>Call me</span>
-									<h3>+380 63 060 3079</h3>
-								</div>
-							</li>
-							<li>
-								<div class="list_inner">
-									<img class="svg" src="img/svg/message.svg" alt="" />
-									<span>Email</span>
-									<h3><a class="line_anim" href="mailto:devhavrylov@gmail.com">devhavrylov@gmail.com</a></h3>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<span class="square moving_effect" data-direction="y" data-reverse="yes"></span>
-		</div>
-	</div> -->
-	<!-- /CONTACT -->
-	
-	<!-- COPYRIGHT -->
-	<div class="aali_tm_section">
-		<div class="aali_tm_copyright">
-			<div class="container">
-				<div class="copyright_inner">
-					<div class="top">
-						<div class="logo">
-							<img src="img/logo/logo.png" alt="" />
-						</div>
-						<div class="social">
-							<span>Connect</span>
-							<ul>
-								<li><a href="https://github.com/TigerRuslan"><i class="icon-github-1"></i></a></li>
-								<!-- <li><a href="#"><i class="icon-linkedin-1"></i></a></li> -->
-							</ul>
-						</div>
-					</div>
-					<div class="bottom">
-						<div class="left">
-							<p>Designed with love by <a class="line_anim" href="#">Ruslan</a> &copy; 2021</p>
-						</div>
-						<!-- <div class="right">
-							<ul>
-								<li><a class="line_anim" href="#">Terms &amp; Condition</a></li>
-								<li><a class="line_anim" href="#">Privacy Policy</a></li>
-								<li><a class="line_anim" href="#">Support</a></li>
-							</ul>
-						</div> -->
-					</div>
-					<span class="border moving_effect" data-direction="y" data-reverse="yes"></span>
-				</div>
-			</div>
-			<span class="square moving_effect" data-direction="x">
-				<a class="totop" href="#">
-					<img class="svg one" src="img/svg/arrow-top.svg" alt="" />
-					<img class="svg two" src="img/svg/arrow-top.svg" alt="" />
-				</a>
-			</span>
-		</div>
-	</div>
-	<!-- /COPYRIGHT -->
-	
-	<!-- MAGIC CURSOR -->
-	<div class="mouse-cursor cursor-outer"></div>
-	<div class="mouse-cursor cursor-inner"></div>
-	<!-- /MAGIC CURSOR -->
-	
-</div>
-<!-- / WRAPPER ALL -->
-	
-<!-- SCRIPTS -->
-<script src="js/jquery.js"></script>
-<!--[if lt IE 10]> <script type="text/javascript" src="js/ie8.js"></script> <![endif]-->	
-<script src="js/plugins.js"></script>
-<script src="js/init.js"></script>
-<!-- /SCRIPTS -->
+                                    <div class="desc">
+                                        <p>I am a creative fullstack developer who is very passionate and dedicated to my work.</p>
+                                    </div>
+
+                                    <div class="action">
+                                        <a href="mailto:devhavrylov@gmail.com" class="btn btn-default">Hire Me</a>
+                                        <a href="#portfolio" class="btn btn-white">My Works</a>
+                                    </div>
+                                </div>
+                                <!-- Banner Content End -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Banner Section End -->
+
+        <!-- About Section Start -->
+        <section id="aboutme" class="section pt--100 pb--40">
+            <div class="container">
+                <!-- Section Title Start -->
+                <div class="section--title pb--60 text-center">
+                    <h2 class="h2 text-uppercase">About Me</h2>
+                </div>
+                <!-- Section Title End -->
+
+                <div class="row row--md-vc">
+                    <div class="col-md-6 pb--60">
+                        <!-- Image Block Start -->
+                        <div class="img--block">
+                            <img src="img/about-img/01.jpg" alt="">
+                        </div>
+                        <!-- Image Block End -->
+                    </div>
+                    
+                    <div class="col-md-6 pb--60">
+                        <!-- About Block Start -->
+                        <div class="about--block">
+                            <div class="title">
+                                <h2 class="h4 fw--700 text-uppercase">Personal Details</h2>
+                            </div>
+
+                            <div class="details pt--30 text-dark">
+                                <p>I am a professional who has knowledge and proficiency in both front-end and back-end web development. I poss the skills to develop complete web applications from start to finish, offering end-to-end solutions to the clients.</p>
+                            </div>
+
+                            <div class="details pt--30">
+                                <p>Putting all my skills together, I can work on both front-end and back-end development, providing an entire suite of services to create fully functional web applications from scratch. I can also collaborate with other professionals like UX/UI designers and project managers to deliver high-quality, user-friendly products.</p>
+                            </div>
+
+                            <div class="info pt--50">
+                                <table class="ff--primary">
+                                    <tbody>
+                                        <tr>
+                                            <th>
+                                                <i class="fa fa-calendar"></i>
+                                                <span>Brithday</span>
+                                            </th>
+                                            <td>23/10/1994</td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                <i class="fa fa-phone"></i>
+                                                <span>Phone</span>
+                                            </th>
+                                            <td><a href="tel:+380 63 060 3079" class="btn-link">(+380) 63 060 3079</a></td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                <i class="fa fa-envelope"></i>
+                                                <span>Email</span>
+                                            </th>
+                                            <td><a href="mailto:devhavrylov@gmail.com " class="btn-link">devhavrylov@gmail.com </a></td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                <i class="fa fa-globe"></i>
+                                                <span>Website</span>
+                                            </th>
+                                            <td><a href="https://ruslanhav.github.io" class="btn-link">ruslanhav.github.io</a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <div class="social text-dark pt--30">
+                                <ul class="nav">
+                                    <li><a href="https://github.com/RuslanHAV"><span class="fa fa-github"></span></a></li>
+                                    <li><a href="mailto:devhavrylov@gmail.com"><span class="fa fa-google-plus"></span></a></li>
+                                    <li><a href="https://www.linkedin.com/in/%D1%80%D1%83%D1%81%D0%BB%D0%B0%D0%BD-%D0%B3%D0%B0%D0%B2%D1%80%D0%B8%D0%BB%D0%BE%D0%B2-b000ba236/"><span class="fa fa-linkedin"></span></a></li>
+                                </ul>
+                            </div>
+
+                            <div class="action pt--60">
+                                <a href="mailto:devhavrylov@gmail.com" class="btn btn-default">Hire Me</a>
+                            </div>
+                        </div>
+                        <!-- About Block End -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Section End -->
+
+        <!-- Services Section Start -->
+        <section id="services" class="section pt--100 pb--40 bg-light">
+            <div class="container">
+                <!-- Section Title Start -->
+                <div class="section--title pb--60 text-center">
+                    <h2 class="h2 text-uppercase">Services I Offer</h2>
+                </div>
+                <!-- Section Title End -->
+
+                <div class="row AdjustRow" data-scroll-reveal="group">
+                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--60">
+                        <!-- Service Block Start -->
+                        <div class="service--block">
+                            <div class="icon">
+                                <i class="fa fa-heart-o"></i>
+                            </div>
+
+                            <div class="title">
+                                <h3 class="h4">Consultant</h3>
+                            </div>
+
+                            <div class="desc">                                
+                                <p>I make strategic technology recommendations and develop high-quality software solutions for your business challenges.</p>
+                            </div>
+                        </div>
+                        <!-- Service Block End -->
+                    </div>
+
+                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--60">
+                        <!-- Service Block Start -->
+                        <div class="service--block">
+                            <div class="icon">
+                                <i class="fa fa-cogs"></i>
+                            </div>
+
+                            <div class="title">
+                                <h3 class="h4">Development</h3>
+                            </div>
+
+                            <div class="desc">
+                                <p>I possess the requisite skills and experience enough to work on all facets of web development comprehensively.</p>
+                            </div>
+                        </div>
+                        <!-- Service Block End -->
+                    </div>
+
+                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--60">
+                        <!-- Service Block Start -->
+                        <div class="service--block">
+                            <div class="icon">
+                                <i class="fa fa-support"></i>
+                            </div>
+
+                            <div class="title">
+                                <h3 class="h4">24/7 Support</h3>
+                            </div>
+
+                            <div class="desc">
+                                <p>I ensure that the application is up and running at all times, and that any issues are resolved quickly and effectively.</p>
+                            </div>
+                        </div>
+                        <!-- Service Block End -->
+                    </div>
+
+                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--60">
+                        <!-- Service Block Start -->
+                        <div class="service--block">
+                            <div class="icon">
+                                <i class="fa fa-paint-brush"></i>
+                            </div>
+
+                            <div class="title">
+                                <h3 class="h4">Redesign</h3>
+                            </div>
+
+                            <div class="desc">
+                                <p>I realize the new designs by writing clean and efficient code that meets user requirements and aligns with best practices.</p>
+                            </div>
+                        </div>
+                        <!-- Service Block End -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services Section End -->
+
+        <!-- Portfolio Section Start -->
+        <section id="portfolio" class="section pt--100 pb--40">
+            <div class="container">
+                <!-- Section Title Start -->
+                <div class="section--title pb--60 text-center">
+                    <h2 class="h2 text-uppercase">Portfolio</h2>
+                </div>
+                <!-- Section Title End -->
+
+                <!-- Portfolio Filter Menu Start -->
+                <div class="portfolio--filter-menu pb--50">
+                    <ul class="nav">
+                        <li data-target="*" class="active">All Works</li>
+                        <li data-target="frontend">Frontend</li>
+                        <li data-target="backend">Backend</li>
+                        <li data-target="ai">AI</li>
+                    </ul>
+                </div>
+                <!-- Portfolio Filter Menu End -->
+
+                <!-- Portfolio Items Start -->
+                <div class="portfolio--items row MasonryRow pb--30" data-trigger="gallery_popup">
+                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--30" data-cat="frontend ai">
+                        <!-- Portfolio Item Start -->
+                        <div class="portfolio--item">
+                            <img src="img/portfolio-img/01_pre.png" alt="hello24.ai">
+
+                            <a href="img/portfolio-img/01.png" class="caption">
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        <h3 class="h6">AI-powered communication platform</h3>
+
+                                        <p>Bootstrap | NLP | Woocommerce.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+
+                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--30" data-cat="backend frontend">
+                        <!-- Portfolio Item Start -->
+                        <div class="portfolio--item">
+                            <img src="img/portfolio-img/02_pre.png" alt="">
+
+                            <a href="img/portfolio-img/02.png" class="caption">
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        <h3 class="h6">Housing Platform</h3>
+
+                                        <p>Next.js | TailwindCSS | Ruby on Rails | Firebase</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+
+                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--30" data-cat="frontend">
+                        <!-- Portfolio Item Start -->
+                        <div class="portfolio--item">
+                            <img src="img/portfolio-img/03_pre.png" alt="">
+
+                            <a href="img/portfolio-img/03.png" class="caption">
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        <h3 class="h6">No-Code Development Platform</h3>
+
+                                        <p>React | Node | Express | MongoDB</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+
+                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--30" data-cat="frontend backend">
+                        <!-- Portfolio Item Start -->
+                        <div class="portfolio--item">
+                            <img src="img/portfolio-img/04_pre.png" alt="">
+
+                            <a href="img/portfolio-img/04.png" class="caption">
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        <h3 class="h6">E-Commerce Platform</h3>
+
+                                        <p>Vue | Nuxt | Three.js</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+
+                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--30" data-cat="backend">
+                        <!-- Portfolio Item Start -->
+                        <div class="portfolio--item">
+                            <img src="img/portfolio-img/05_pre.png" alt="">
+
+                            <a href="img/portfolio-img/05.png" class="caption">
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        <h3 class="h6">Real Estate</h3>
+
+                                        <p>CMS | Django | Google Analytics</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+
+                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--30" data-cat="backend ai">
+                        <!-- Portfolio Item Start -->
+                        <div class="portfolio--item">
+                            <img src="img/portfolio-img/06_pre.png" alt="">
+
+                            <a href="img/portfolio-img/06.png" class="caption">
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        <h3 class="h6">AI-powered speech-to-text platform</h3>
+
+                                        <p>NLP | Tensor Flow | WebRTC</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+
+                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--30" data-cat="frontend ai">
+                        <!-- Portfolio Item Start -->
+                        <div class="portfolio--item">
+                            <img src="img/portfolio-img/07_pre.png" alt="">
+
+                            <a href="img/portfolio-img/07.png" class="caption">
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        <h3 class="h6">Chatbot Analytics Platform</h3>
+
+                                        <p>Python | JavaScript | ChatGPT | TensorFlow</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+
+                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--30" data-cat="frontend">
+                        <!-- Portfolio Item Start -->
+                        <div class="portfolio--item">
+                            <img src="img/portfolio-img/08_pre.png" alt="">
+
+                            <a href="img/portfolio-img/08.png" class="caption">
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        <h3 class="h6">Social Publishing Platform</h3>
+
+                                        <p>Vue | Nuxt | Salesforce | AWS</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+                </div>
+                <!-- Portfolio Items End -->
+            </div>
+        </section>
+        <!-- Portfolio Section End -->
+
+        <!-- Call To Action Start -->
+        <section class="section pt--100 pb--100" data-bg-parallax="img/call-to-action-img/bg.jpg" data-overlay="0.7">
+            <div class="container">
+                <!-- Call To Action Block Start -->
+                <div class="cta--block text-center">
+                    <div class="title">
+                        <h2 class="h2 text-white">Have an exciting idea for a project?</h2>
+                    </div>
+
+                    <div class="content fs--20 pt--10 text-white">
+                        <p>If you can dream it, I can make it happen.</p>
+                    </div>
+
+                    <div class="action pt--20">
+                        <a href="mailto:devhavrylov@gmail.com" class="btn btn-white">Hire Me Now</a>
+                    </div>
+                </div>
+                <!-- Call To Action Block End -->
+            </div>
+        </section>
+        <!-- Call To Action End -->
+
+        <!-- Resume Section Start -->
+        <section id="resume" class="section pt--100 pb--100">
+            <div class="container">
+                <!-- Section Title Start -->
+                <div class="section--title pb--60 text-center">
+                    <h2 class="h2 text-uppercase">My Resume</h2>
+                </div>
+                <!-- Section Title End -->
+
+                <!-- Timeline Block Start -->
+                <div class="timeline--block">
+                    <div class="title">
+                        <h3 class="h5">Education</h3>
+                    </div>
+
+                    <div class="sub-title">
+                        <p class="fs--16">Knowledge is power. Information is liberating. Eduction is the premise of progress, in every society, in every family.</p>
+                    </div>
+
+                    <!-- Timeline Items Start -->
+                    <ul class="timeline--items nav">
+                        <li>
+                            <!-- Timeline Item Start -->
+                            <div class="timeline--item">
+                                <div class="icon bg-default">
+                                    <i class="fa fa-graduation-cap"></i>
+                                </div>
+
+                                <table class="table" data-scroll-reveal="bottom">
+                                    <tr>
+                                        <td>
+                                            <p class="date bg-primary">2017 - 2021</p>
+
+                                            <div class="bottom">
+                                                <h4 class="name h6 fw--700">Mariupol State University</h4>
+
+                                                <p class="institute ff--primary">Bachelor of Software Engineering</p>
+
+                                                <p class="location fs--12">Mariupol, Ukraine</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="content">
+                                                <p>Followed my passion in a core of prototyping and cloud computing classes. Excelled in user experience and user interfaces. Pursued a Generalist Scholars grant to study software architecture. Wrote a column on the future of the internet for the student paper.</p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!-- Timeline Item End -->
+                        </li>
+                        <li>
+                            <!-- Timeline Item Start -->
+                            <div class="timeline--item">
+                                <div class="icon bg-default">
+                                    <i class="fa fa-graduation-cap"></i>
+                                </div>
+
+                                <table class="table" data-scroll-reveal="bottom">
+                                    <tr>
+                                        <td>
+                                            <p class="date bg-primary">2014 - 2017</p>
+
+                                            <div class="bottom">
+                                                <h4 class="name h6 fw--700">Lviv IT School</h4>
+
+                                                <p class="institute ff--primary">No Degree</p>
+
+                                                <p class="location fs--12">Lviv, Ukraine</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="content">
+                                                <p>Both front-end and back-end web technologies, such as HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, and more. I was interested in learning how to build dynamic and responsive web applications.</p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!-- Timeline Item End -->
+                        </li>
+                    </ul>
+                    <!-- Timeline Items End -->
+                </div>
+                <!-- Timeline Block End -->
+            </div>
+        </section>
+        <!-- Resume Section End -->
+
+        <!-- Experience Section Start -->
+        <section class="section pt--100 pb--100 bg-light">
+            <div class="container">
+                <!-- Timeline Block Start -->
+                <div class="timeline--block">
+                    <div class="title">
+                        <h3 class="h5">Experience</h3>
+                    </div>
+
+                    <div class="sub-title">
+                        <p class="fs--16">You can never truly know if someone is brave, no matter how much you train yourself, until you face a real challenge.</p>
+                    </div>
+
+                    <!-- Timeline Items Start -->
+                    <ul class="timeline--items nav">
+                        <li>
+                            <!-- Timeline Item Start -->
+                            <div class="timeline--item">
+                                <div class="icon bg-light">
+                                    <i class="fa fa-briefcase"></i>
+                                </div>
+
+                                <table class="table" data-scroll-reveal="bottom">
+                                    <tr>
+                                        <td>
+                                            <p class="date bg-primary">2022 - Present</p>
+
+                                            <div class="bottom">
+                                                <h4 class="name h6 fw--700">Upwork</h4>
+
+                                                <p class="institute ff--primary">Senior Software Engineer
+                                                </p>
+
+                                                <p class="location fs--12">https://upwork.com</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="content">
+                                                <p>Created and maintained software for clients ranging from small businesses to enterprise corporations.</p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!-- Timeline Item End -->
+                        </li>
+                        <li>
+                            <!-- Timeline Item Start -->
+                            <div class="timeline--item">
+                                <div class="icon bg-light">
+                                    <i class="fa fa-briefcase"></i>
+                                </div>
+
+                                <table class="table" data-scroll-reveal="bottom">
+                                    <tr>
+                                        <td>
+                                            <p class="date bg-primary">2021 - 2022</p>
+
+                                            <div class="bottom">
+                                                <h4 class="name h6 fw--700">Exadel</h4>
+
+                                                <p class="institute ff--primary">Full-stack Software Engineer</p>
+
+                                                <p class="location fs--12">Odessa, Ukraine</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="content">
+                                                <p>Created multiple web applications, participating in the whole process of their development: product design and estimation, code design and development, DevOps, UI/UX design, product launch and maintenance.</p>
+                                                <p>Co-organized several tech meetups and conferences.</p>
+                                                <p>Created and launched a large Single Page Application (in React and Redux) that allows Partners to manage their offers, pricings, orders, customers and agents.</p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!-- Timeline Item End -->
+                        </li>
+                        <li>
+                            <!-- Timeline Item Start -->
+                            <div class="timeline--item">
+                                <div class="icon bg-light">
+                                    <i class="fa fa-briefcase"></i>
+                                </div>
+
+                                <table class="table" data-scroll-reveal="bottom">
+                                    <tr>
+                                        <td>
+                                            <p class="date bg-primary">2020 - 2021</p>
+
+                                            <div class="bottom">
+                                                <h4 class="name h6 fw--700">Foridev</h4>
+
+                                                <p class="institute ff--primary">Frontend Developer</p>
+
+                                                <p class="location fs--12">Mariupol, Ukraine</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="content">
+                                                <p>Wrote advanced data import/export feature with data mapping and optional parameters.</p>
+                                                <p>As a part of the team, gained awairds in several hackatons and startup contests.</p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!-- Timeline Item End -->
+                        </li>
+                    </ul>
+                    <!-- Timeline Items End -->
+                </div>
+                <!-- Timeline Block End -->
+            </div>
+        </section>
+        <!-- Experience Section End -->
+
+        <!-- Skills Section Start -->
+        <section id="skills" class="section pt--100 pb--40" data-bg-img="img/skills-img/bg.jpg" data-overlay="0.7">
+            <div class="container">
+                <!-- Section Title Start -->
+                <div class="section--title pb--60 text-center">
+                    <h2 class="h2 text-white text-uppercase">My Skills</h2>
+                </div>
+                <!-- Section Title End -->
+
+                <div class="row">
+                    <div class="col-md-6 pb--60">
+                        <!-- Skills Items Start -->
+                        <div class="skills--items">
+                            <div class="skill--title text-uppercase">
+                                <h3 class="h4 text-white">Web programming Skills</h3>
+                            </div>
+
+                            <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">React/NextJs</span>
+                                    <span class="skill--count float--right">95%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 95%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
+
+                            <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">Python/Django/Flask</span>
+                                    <span class="skill--count float--right">90%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 90%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
+
+                            <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">Ruby on Rails</span>
+                                    <span class="skill--count float--right">93%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 93%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
+
+                            <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">Node/ExpressJs</span>
+                                    <span class="skill--count float--right">91%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 91%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
+
+                            <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">Svelte/SolidJs/BackboneJs</span>
+                                    <span class="skill--count float--right">95%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 95%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
+
+                            <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">VueJs/EnberJs/Semantic-UI</span>
+                                    <span class="skill--count float--right">90%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 90%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
+                        </div>
+                        <!-- Skills Items End -->
+                    </div>
+
+                    <div class="col-md-6 pb--60">
+                        <!-- Skills Items Start -->
+                        <div class="skills--items">
+                            <div class="skill--title text-uppercase">
+                                <h3 class="h4 text-white">AI and other skills</h3>
+                            </div>
+
+                            <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">ChatGPT</span>
+                                    <span class="skill--count float--right">90%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 90%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
+
+                            <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">Open AI</span>
+                                    <span class="skill--count float--right">86%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 86%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
+
+                            <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">Tensor Flow</span>
+                                    <span class="skill--count float--right">80%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 80%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
+
+                            <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">Jest, Mocha, Jasmine</span>
+                                    <span class="skill--count float--right">90%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 90%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
+
+                            <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">Firebase</span>
+                                    <span class="skill--count float--right">97%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 97%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
+
+                            <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">AWS</span>
+                                    <span class="skill--count float--right">80%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 80%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
+                        </div>
+                        <!-- Skills Items End -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Skills Section End -->
+
+        <!-- Clients Section Start -->
+        <section id="clients" class="section pt--80 pb--20">
+            <div class="container">
+                <div class="section--title pb--60 text-center">
+                    <h2 class="h2">I enjoy every step of the Web Building process, from discussion and collaboration to concept and execution.</h2>
+                </div>
+            </div>
+        </section>
+        <!-- Clients Section End -->
+
+        <!-- Testimonial Section Start -->
+        <section id="testimonial" class="section pt--90 pb--90" data-bg-parallax="img/testimonial-img/bg.jpg" data-overlay="0.5">
+            <div class="container">
+                <!-- Testimonial Slider Start -->
+                <div class="testimonial--slider owl-carousel" data-owl-dots="true">
+                    <!-- Testimonial Item Start -->
+                    <div class="testimonial--item text-white">
+                        <div class="icon">
+                            <i class="fa fa-comments"></i>
+                        </div>
+
+                        <blockquote>
+                            <p>Ruslan's contributed to helping solve a functionality issue we were having with embedded forms on a squarespace site. He started working on the issue immediately and communicated well.</p>
+
+                            <footer>Niamh Lyonhart @ ScrumLaunch</footer>
+                        </blockquote>
+                    </div>
+                    <!-- Testimonial Item End -->
+
+                    <!-- Testimonial Item Start -->
+                    <div class="testimonial--item text-white">
+                        <div class="icon">
+                            <i class="fa fa-comments"></i>
+                        </div>
+
+                        <blockquote>
+                            <p>He understands what he is doing. He was able to do his own research to get the job done quickly without any quality issue. I expected the job to be completed in a week, he has done it in within 2 days. He is good.</p>
+
+                            <footer>Quan Hoang @ Evalian.</footer>
+                        </blockquote>
+                    </div>
+                    <!-- Testimonial Item End -->
+
+                    <!-- Testimonial Item Start -->
+                    <div class="testimonial--item text-white">
+                        <div class="icon">
+                            <i class="fa fa-comments"></i>
+                        </div>
+
+                        <blockquote>
+                            <p>If you have the opportunity to work with Ruslan, I say go for it! You are guaranteed an enjoyable and productive experience. Ruslan is skilled at what he does and we look forward to working with Ruslan again for our next project!</p>
+
+                            <footer>Tom Anderson @ Sibedge.</footer>
+                        </blockquote>
+                    </div>
+                    <!-- Testimonial Item End -->
+                </div>
+                <!-- Testimonial Slider End -->
+            </div>
+        </section>
+        <!-- Testimonial Section End -->
+
+        <!-- Contact Section Start -->
+        <section id="contact" class="section pt--100 pb--40 bg-light">
+            <div class="container">
+                <!-- Section Title Start -->
+                <div class="section--title pb--60 text-center">
+                    <h2 class="h2 text-uppercase">Contact With Me</h2>
+                </div>
+                <!-- Section Title End -->
+
+                <div class="row AdjustRow pb--10">
+                    <div class="col-md-4 col-xs-12 pb--40">
+                        <!-- Contact Info Block Start -->
+                        <div class="contact--info-block" data-scroll-reveal="bottom">
+                            <div class="icon">
+                                <i class="fa fa-phone"></i>
+                            </div>
+
+                            <div class="title text-uppercase">
+                                <h3 class="h4">Call Me</h3>
+                            </div>
+
+                            <div class="desc">
+                                <p><a href="tel:+380 63 060 3079" class="btn-link">(+380) 63 060 3079</a></p>                               
+                            </div>
+                        </div>
+                        <!-- Contact Info Block End -->
+                    </div>
+
+                    <div class="col-md-4 col-xs-12 pb--40">
+                        <!-- Contact Info Block Start -->
+                        <div class="contact--info-block" data-scroll-reveal="bottom">
+                            <div class="icon">
+                                <i class="fa fa-map-marker"></i>
+                            </div>
+
+                            <div class="title text-uppercase">
+                                <h3 class="h4">Visit Me</h3>
+                            </div>
+
+                            <div class="desc">                                
+                                <p>13 Trudova Street, Mariupol, Donetsk Oblast, Ukraine</p>
+                            </div>
+                        </div>
+                        <!-- Contact Info Block End -->
+                    </div>
+
+                    <div class="col-md-4 col-xs-12 pb--40">
+                        <!-- Contact Info Block Start -->
+                        <div class="contact--info-block" data-scroll-reveal="bottom">
+                            <div class="icon">
+                                <i class="fa fa-envelope-o"></i>
+                            </div>
+
+                            <div class="title text-uppercase">
+                                <h3 class="h4">Send A Message</h3>
+                            </div>
+
+                            <div class="desc">
+                                <p><a href="mailto:devhavrylov@gmail.com" class="btn-link">devhavrylov@gmail.com</a></p>
+                            </div>
+                        </div>
+                        <!-- Contact Info Block End -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section End -->
+
+        <!-- Footer Section Start -->
+        <footer class="footer--section pt--100 pb--100 text-center">
+            <div class="container">
+                <!-- Footer Social Start -->
+                <div class="footer--social">
+                    <ul class="nav" data-scroll-reveal="group">
+                        <li><a href="https://github.com/RuslanHAV"><span class="fa fa-github"></span></a></li>
+                        <li><a href="mailto:devhavrylov@gmail.com"><span class="fa fa-google-plus"></span></a></li>
+                        <li><a href="https://www.linkedin.com/in/%D1%80%D1%83%D1%81%D0%BB%D0%B0%D0%BD-%D0%B3%D0%B0%D0%B2%D1%80%D0%B8%D0%BB%D0%BE%D0%B2-b000ba236/"><span class="fa fa-linkedin"></span></a></li>
+                    </ul>
+                </div>
+                <!-- Footer Social End -->
+
+                <!-- Copyright Text Start -->
+                <p class="copyright--text fs--16 ff--primary">Copyright &copy; 2021 <a href="#">Ruslan Havrylov</a>. All Rights Reserved.</p>
+                <!-- Copyright Text End -->
+            </div>
+        </footer>
+        <!-- Footer Section End -->
+    </div>
+    <!-- Wrapper End -->
+
+    <!-- Back To Top Button Start -->
+    <div id="backToTop">
+        <a href="#" class="btn btn-default active"><i class="fa fa-long-arrow-up"></i></a>
+    </div>
+    <!-- Back To Top Button End -->
+
+    <!-- ==== Plugins Bundle ==== -->
+    <script src="js/plugins.min.js"></script>
+
+    <!-- ==== Main Script ==== -->
+    <script src="js/main.js"></script>
 
 </body>
 </html>

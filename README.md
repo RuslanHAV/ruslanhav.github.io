@@ -1,2 +1,0 @@
-# RuslanHavrylov
-Personal Website
